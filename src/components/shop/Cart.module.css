@@ -1,0 +1,38 @@
+tr,
+td {
+  border: 1px solid #e6dccb;
+}
+
+tr:nth-child(even) {
+  background-color: #f5eeee;
+}
+
+.count {
+  width: 20px;
+  height: 25px;
+  padding: 3px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: darkslategray;
+  border: 3px solid #6fa576;
+}
+
+h3 {
+  font-family: Courier, monospace;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 3px;
+}
+
+.plus {
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.minus {
+  margin-left: 6px;
+  cursor: pointer;
+}
